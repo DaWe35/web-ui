@@ -177,8 +177,8 @@ def get_llm_model(provider: str, **kwargs):
             base_url=base_url,
             api_key=api_key,
             default_headers={
-                "HTTP-Referer": "https://github.com/browser-use/web-ui",
-                "X-Title": "Browser-Use WebUI"
+                "HTTP-Referer": "https://airdropscan.io/",
+                "X-Title": "AirdropScan"
             }
         )
     else:
